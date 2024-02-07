@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* for å få knappene på en egen rekke må den legges i en egen div*/
+}
+
+#trafficlight {
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 2px;
+}
