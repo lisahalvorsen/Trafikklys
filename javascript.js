@@ -15,7 +15,7 @@ function turnYellowLightOn() {
 function turnGreenLightOn() {
   turnOffTrafficlight();
   document.getElementById("greenLight").style.backgroundColor = "green";
-  timer = setTimeout(turnRedLightOn, 2000);
+  timer = setTimeout(turnYellowLightOn, 2000);
 }
 
 function turnOnTrafficlight() {
